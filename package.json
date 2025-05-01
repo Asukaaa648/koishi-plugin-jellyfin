@@ -1,22 +1,35 @@
 {
   "name": "koishi-plugin-jellyfin",
-  "description": "连接jellyfin，支持jellyfin用户注册、库内搜索等功能",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "description": "连接 Jellyfin，支持用户注册、库内搜索等功能,node-fetch选择2.7.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
     "lib",
     "dist"
   ],
-  "license": "MIT",
-  "scripts": {},
-  "keywords": [
-    "chatbot",
-    "koishi",
-    "plugin"
+  "contributors": [
+    "GuoJiang <qingming648@gmail.com>"
   ],
+  "license": "MIT",
+  "homepage": "https://github.com/Asukaaa648/koishi-plugin-jellyfin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asukaaa648/koishi-plugin-jellyfin.git"
+  },
+  "keywords": [
+    "koishi",
+    "plugin",
+    "jellyfin",
+    "chatbot",
+    "media",
+    "search",
+    "user-registration"
+  ],
+  "scripts": {},
   "devDependencies": {},
   "peerDependencies": {
+    "node-fetch": "^2.7.0",
     "koishi": "^4.18.7"
   }
 }
