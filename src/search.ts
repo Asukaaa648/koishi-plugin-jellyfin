@@ -21,6 +21,7 @@ export async function jellyfinSearch(ctx: Context, query: string, config: Config
     SearchTerm: query,
     Recursive: 'true',
     Limit: '10',
+    IncludeItemTypes: 'Movie,Series'
   })
 
   try {
