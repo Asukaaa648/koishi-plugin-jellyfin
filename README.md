@@ -3,8 +3,7 @@
 连接 [Jellyfin](https://jellyfin.org/)，支持用户注册、媒体库内搜索等功能的 Koishi 插件。
 
 ![npm](https://img.shields.io/npm/v/koishi-plugin-jellyfin)
-![license](https://img.shields.io/github/license/Asukaaa648/koishi-plugin-jellyfin)
-
+![License](https://img.shields.io/github/license/Asukaaa648/koishi-plugin-jellyfin)
 
 ## ✨ 功能特性
 
