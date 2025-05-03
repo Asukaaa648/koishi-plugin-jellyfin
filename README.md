@@ -5,6 +5,7 @@
 ![npm](https://img.shields.io/npm/v/koishi-plugin-jellyfin)
 ![license](https://img.shields.io/github/license/Asukaaa648/koishi-plugin-jellyfin)
 
+
 ## ✨ 功能特性
 
 - ✅ Jellyfin 用户注册
