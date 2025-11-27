@@ -1,6 +1,6 @@
 {
   "name": "koishi-plugin-jellyfin",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "连接 Jellyfin，支持用户注册、库内搜索等功能,node-fetch选择2.7.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
