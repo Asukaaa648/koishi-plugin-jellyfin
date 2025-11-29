@@ -1,4 +1,3 @@
-import fetch from 'node-fetch'
 import { Context } from 'koishi'
 import { Config } from './index'  // 导入 Config 类型
 

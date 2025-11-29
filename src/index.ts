@@ -8,10 +8,12 @@ export interface Config {
   JELLYFIN_SERVER_URL: string
   API_KEY: string
   USER_ID: string
+  JELLYFIN_EXTERNAL_SERVER_URL: string
 }
 
 export const Config: Schema<Config> = Schema.object({
-  JELLYFIN_SERVER_URL: Schema.string().default('http://192.168.1.18:8096').description('Jellyfin 服务器 URL'),
+  JELLYFIN_SERVER_URL: Schema.string().default('http://10.10.10.18:8096').description('Jellyfin (内网)服务器 URL'),
+  JELLYFIN_EXTERNAL_SERVER_URL: Schema.string().default('https://your_external_url').description('Jellyfin (外部)服务器 URL'),
   API_KEY: Schema.string().default('02fe2d4e37124ffdafe45c7fba66f0ad').description('API 密钥'),
   USER_ID: Schema.string().default('d9b458c994d1469b86b17319266f97d8').description('用户 ID'),
 })
